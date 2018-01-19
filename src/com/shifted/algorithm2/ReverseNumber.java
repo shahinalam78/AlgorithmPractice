@@ -54,9 +54,7 @@ public class ReverseNumber {
 
         while(num != 0){
 
-            rnum = rnum * 10;
-
-            rnum = rnum + num % 10;
+            rnum = rnum * 10 + num % 10;
 
             num = num / 10;
         }

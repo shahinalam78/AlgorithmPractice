@@ -8,8 +8,5 @@ public class abjkdsdjkf {
     public static void main(String[] args) {
          String text = "ddhfd";
 
-
-
-
     }
 }

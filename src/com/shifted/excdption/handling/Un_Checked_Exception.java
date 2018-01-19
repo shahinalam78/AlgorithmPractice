@@ -6,16 +6,18 @@ package com.shifted.excdption.handling;
 public class Un_Checked_Exception {
 
     public static void main(String[] args) {
-       // 1. Exmaple
-try {
-    System.out.println("exception handling");
-    System.out.println("exception handling");
-    System.out.println(10 / 0); // ArithmeticException
-} catch (ArithmeticException ex){
 
-    System.out.println(ex.getMessage());
-}
-         // rest of code r not executed
+        // 1. Exmaple
+        try {
+            System.out.println("exception handling");
+            System.out.println("exception handling");
+            System.out.println(10 / 0); // ArithmeticException
+
+        } catch (ArithmeticException ex) {
+
+            System.out.println(ex.getMessage());
+        }
+        // rest of code r not executed
 
         System.out.println("exception handling");
         System.out.println("exception handling");
