@@ -1,13 +1,11 @@
 package etc;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by PaxoStudent on 1/5/2018.
- */
+
 public class ListTest {
 
     public static void main(String[] args) {
