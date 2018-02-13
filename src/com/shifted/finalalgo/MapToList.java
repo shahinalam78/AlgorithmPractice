@@ -18,6 +18,8 @@ public class MapToList {
 
         map.put(4,"ahonaf");
 
+        map.put(5,"prioty");
+
         //System.out.println("Maping key and values: " + map);
 
 
@@ -40,6 +42,10 @@ public class MapToList {
         Object[] values = map.values().toArray(new String[0]); // conveting map to array
 
         System.out.println(Arrays.toString(values));
+
+        Set set = map.entrySet();
+
+        System.out.println("converting set: " + set);
 
 
     }
