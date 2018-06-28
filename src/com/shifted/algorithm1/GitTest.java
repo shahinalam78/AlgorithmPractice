@@ -6,14 +6,14 @@ public class GitTest {
 		
 		System.out.println("please try your best");
 		
-<<<<<<< HEAD
+
 		System.out.println("please try your best");
 		
 		System.out.println("please try your best");
 		
 		System.out.println("please try your best");
 		
-=======
+
 		System.out.println("alam alam alam");
 		
 		System.out.println("alam alam alam");
@@ -21,7 +21,7 @@ public class GitTest {
 		System.out.println("alam alam alam");
 		
 		System.out.println("alam alam alam");
->>>>>>> 78branch
+
 	}
 
 }
